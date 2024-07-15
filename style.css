@@ -14,6 +14,8 @@ html{
     width: 100%;
 }
 
+
+
 header{
     width: 100%;
     height: auto;
@@ -22,6 +24,11 @@ header{
     justify-content: space-around;  
     align-items: center; 
     padding: 10px;
+}
+
+.img2{
+  width: 250px;
+  height: 100px;
 }
 
 header ul{
@@ -39,7 +46,7 @@ header li a:hover{
   background-color: #40a246;
   color: #fff;
   text-decoration: none;
-  
+  transition: 0.6s;
 }
   
 header li a{
@@ -49,6 +56,7 @@ header li a{
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 header a{
@@ -63,6 +71,7 @@ header .dropbtn {
   font-size: 15px;
   border: none;
   border-radius: 10px;
+  transition: 0.6s;
 }
 
 header .dropdown {
@@ -78,6 +87,7 @@ header .dropdown-content {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 10px;
+  transition: 0.6s;
 }
 
 header .dropdown-content a {
@@ -86,6 +96,7 @@ header .dropdown-content a {
   text-decoration: none;
   display: block;
   border-radius: 10px;
+  transition: 0.6s;
 }
 
 header .dropdown-content a:hover {background-color: #40a246;}
@@ -93,12 +104,10 @@ header .dropdown-content a:hover {background-color: #40a246;}
 header .dropdown:hover .dropdown-content {display: block;}
 
 header .dropdown:hover .dropbtn {background-color: #40a246;}
-
 /* DROPDWON */
 
 
 /* REDESOCIAL */
-
 .wrapper{
   display: inline-flex;
 }
@@ -126,8 +135,6 @@ header .dropdown:hover .dropbtn {background-color: #40a246;}
   z-index: 2;
   box-shadow: 0 10px 10px rgba(0,0,0,0.1);
 }
-
-
 
 .wrapper .icon span i{
   font-size: 15px;
@@ -180,54 +187,56 @@ header .dropdown:hover .dropbtn {background-color: #40a246;}
   background: #f381d4;
 
 }
+
 .wrapper .facebook:hover span,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip:before{
   background: #3b5999;
 
 }
+
 .wrapper .whatsapp:hover span,
 .wrapper .whatsapp:hover .tooltip,
 .wrapper .whatsapp:hover .tooltip:before{
   background: #57cc59;
-
 }
-
 /* REDESOCIAL */
 
-
-
 /* RODAPE */
-
-
 footer{
   background: #3c4055;
-  margin-top: 20px;
+  /* margin-top: 10px; */
   padding-top: 50px;
   color: #fff;
 }
+
 footer .container{
   width: 1140px;
   margin: auto;
   display: flex;
   justify-content: center;
 }
+
 .footer-content{
   width: 33.3%;
 }
+
 footer h3{
   font-size: 28px;
   margin-bottom: 15px;
   text-align: center;
 }
+
 .footer-content p{
   width: 300px;
   margin: auto;
   padding: 7px;
 }
+
 .footer-content ul{
   text-align: center;
 }
+
 footer .list{
   padding: 0;
 }
@@ -239,6 +248,7 @@ footer .list li{
   padding: 7px;
   position: relative;
 }
+
 footer .list li::before{
   content: '';
   position: absolute;
@@ -250,44 +260,55 @@ footer .list li::before{
   background-color: chartreuse;
   transition-duration: .5s;
 }
+
 footer .list li:hover::before{
   width: 70px;
 }
+
 footer .social-icons{
   text-align: center;
   padding: 0;
 }
+
 footer .social-icons li{
   display: inline-block;
   text-align: center;
   padding: 5px;
 }
+
 footer .social-icons i{
   color: #fff;
   font-size: 25px;
 }
+
 footer a{
   text-decoration: none;
   color: #fff;
 }
+
 footer a:hover{
   color: chartreuse;
 }
+
 footer .social-icons i:hover{
   color: chartreuse;
 }
+
 footer .bottom-bar{
   background: rgba(69, 96, 112, 0.875);
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 10px 0;
   margin-top: 50px;
 }
+
 footer .bottom-bar p{
   color: #fff;
   margin: 0;
   font-size: 16px;
   padding: 7px;
 }
+
 footer .img{
  display:inline-block;
   align-content: center;
@@ -295,7 +316,6 @@ footer .img{
   width: 150px;
   height: 150px;
 }
-
 /* RODAPE */
 
 
@@ -314,6 +334,7 @@ iframe{
   justify-content: center;
 
 }
+
 .cont{
   margin: 50px;
   padding: 0;
@@ -324,25 +345,29 @@ iframe{
   justify-content: center;
   flex-direction: column;
   padding: 10px 45px;
-  background-color: #1d1d2e;
+  background-color: #3c4055;
   width: 500px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
+
 .cont h2{
   color: #f5f5f5;
   font-size: 2.5rem;
   margin: 2rem;
 }
+
 .cont form{
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+
 .cont label{
   color: #f5f5f5;
   font-size: 17px;
   margin-bottom: 4px;
 }
+
 .cont input{
   padding: 15px;
   outline: none;
@@ -351,9 +376,11 @@ iframe{
   font-size: 15px;
   transition: all 0.5s;
 }
+
 .cont input:focus{
   border-radius: 16px;
 }
+
 .cont textarea{
   padding: 10px;
   outline: none;
@@ -362,9 +389,11 @@ iframe{
   margin-bottom: 30px;
   transition: all 0.5s;
 }
+
 .cont textarea:focus{
   border-radius: 16px;
 }
+
 .cont button{
   padding: 15px;
   cursor: pointer;
@@ -375,11 +404,14 @@ iframe{
   transition: all 0.8s;
   margin-bottom: 20px;
 }
+
 .cont button:hover{
   background: #40a246;
   color: #fff;
   border-radius: 16px;
 }
+/* CONTATO */
+
 /** Pagina do OBG **/
 .main_obg{
   display: flex;
@@ -389,16 +421,19 @@ iframe{
   background: #101026;
   flex-direction: column;
 }
+
 .main_obg .text_obg{
   font-size: 45px;
   color: #f5f5f5;
   margin-bottom: 30px;
 }
+
 .main_obg .p_obg{
   color: #f5f5f5;
   font-size: 20px;
   margin-bottom: 50px;
 }
+
 .main_obg .btn_obg{
   padding: 15px 55px;
   background: #f5f5f5;
@@ -407,15 +442,18 @@ iframe{
   font-size: 18px;
   transition: all 0.5s;
 }
+
 .main_obg .btn_obg:hover{
   border-radius: 16px;
   background: #40a246;
   color: #fff;
 }
+
 .construcao{
   display: flex;
   justify-content: center;
 }
+
 .pname{
   display: flex;
   background-color: #3c4055;
@@ -426,25 +464,67 @@ iframe{
 /* CONTATO */
 
 /* HISTORIA */
-
 .historia{
   display: flex;
-  justify-content:flex-start;
+  justify-content:flex-start; 
 }
+
 .historia h3{
   margin-left: 20px;
   margin-top: 70px;
   text-align: center;
   font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
-  
-  
 }
+
 .historia p{
   margin-top: 35px;
   margin-left: 35px;
   margin-right: 35px;
   font-size: 16px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
+}
+/* HISTORIA */
+
+
+
+.his {
+    display: flex;
+    align-items: flex-start;
+    /* margin-bottom: 30px; */
+    background-image: url(img/bghis.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+    
+}
+.his .foto {
+    margin-top: 50px;
+    width: 700px;
+    height: 600px;
+    border: #564537;
+    border-style:ridge;
+    border-radius: 5px;
+    align-content: center;
+}
+.texto {
+    flex: 1; /* O texto ocupa todo o espaço restante */
+    margin: 25px;
+    font-family:sans-serif;
+    text-indent: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: #3c4055;
+    font-size-adjust: initial;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p {
+    text-align: justify;
 }
