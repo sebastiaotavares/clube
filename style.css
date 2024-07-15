@@ -504,6 +504,8 @@ iframe{
 }
 .his .foto {
     margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     width: 700px;
     height: 600px;
     border: #564537;
